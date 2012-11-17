@@ -25,7 +25,7 @@ $(document).ready(function(){
     }, 2000);    
         setTimeout(function(){
       $('.hero_message').find('h1').fadeOut(500);
-    }, 8000);
+    }, 6500);
   });
   
  setTimeout(function(){ play(); }, 200);
