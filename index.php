@@ -9,30 +9,33 @@
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-      <!--
-      <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+      
+      <div class="row" style="margin-top:30px; margin-bottom:30px; ">
+       <div class="span6"> 
+        <h1 style="font-size:60px; line-height:70px;">Hello, world!</h1>
+        <p style="font-size:18px; line-height:24px;">My name is Shane. I make stuff.</p>
+        <p><a id="watch_again" class="btn btn-primary btn-large">Watch that again?</a></p>
+        </div>
+        <div class="span6 hero_message">
+          <h1>Kind of cool, huh?</h1>
+          <h1>Try rolling over it.</h1>
+        </div>
       </div>
-      -->
+      
       
         <div class="row" id="plugin_wrap">
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>
-          <div class="slice span1" ></div>       
-          <div class="slice span1" ></div>       
-          <div class="slice span1" ></div>       
-          <div class="slice span1" ></div>       
-          <div class="slice span1" ></div>  
-        </div>
-        <div class="row">
-          <p id="watch_again" class="span12">again?</p>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>
+          <div class="slice" ></div>       
+          <div class="slice" ></div>       
+          <div class="slice" ></div>       
+          <div class="slice" ></div>       
+          <div class="slice" ></div>  
         </div>
       
       <!-- Example row of columns -->
@@ -46,7 +49,7 @@
         <div class="span4">
           <h2>Work</h2>
           <p>Take a look at the sites I've built:</p>
-          <p><a class="btn" href="#">Portfolio &raquo;</a></p>
+          <p><a class="btn" href="portfolio.php">Portfolio &raquo;</a></p>
           <p>Coding projects in varying states of disrepair:</p>
           <p><a target="_blank" class="btn" href="https://github.com/shanejdonnelly">Github &raquo;</a></p>
           <p>My resume:</p>

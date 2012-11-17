@@ -37,8 +37,10 @@
   }
 })(jQuery);
 
-// Place any jQuery/helper plugins in here.
-
+/*
+* Plugin Name : smushIn
+* Author      : Shane Donnelly
+*/
 ;(function ($) {
 
   "use strict"; 
