@@ -14,26 +14,30 @@ $(document).ready(function(){
   function rand_hex(){
     return '#'+(Math.random()*0xFFFFFF<<0).toString(16); 
   }  
+  var first_time = true;
   
   $('#watch_again').on('click', function(){
     play();
-    setTimeout(function(){
-      $('.hero_message').find('h1').first().fadeIn(500);
-    }, 500);
-    setTimeout(function(){
-      $('.hero_message').find('h1').last().fadeIn(500);
-    }, 2000);    
-        setTimeout(function(){
-      $('.hero_message').find('h1').fadeOut(500);
-    }, 6500);
+    if(first_time){
+      setTimeout(function(){
+        $('.hero_message').find('h1').first().fadeIn(500);
+      }, 500);
+      setTimeout(function(){
+        $('.hero_message').find('h1').last().fadeIn(500);
+      }, 2000);    
+          setTimeout(function(){
+        $('.hero_message').find('h1').fadeOut(500);
+      }, 6000);
+      first_time = false;
+    }
   });
   
  setTimeout(function(){ play(); }, 200);
     
-  $('ul.nav').highlightCurrentLink();
+  //$('ul.nav').highlightCurrentLink();
   
   $('.slice').on('mouseenter', function(){
     $(this).css('background-color', rand_hex());
   });
-  
+
 });
