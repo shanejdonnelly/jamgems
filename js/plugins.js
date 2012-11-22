@@ -72,11 +72,12 @@
       if(this.settings.overshot === 0){ this.settings.overshot = this.rand(10,70) }
       
       //decide direction
-      if(this.settings.plane === 'horizontal') {
-        this.horzAnim(this.settings.from_direction);
+      if(this.settings.from_direction === 'random') {
+        var random_direction = (this.rand(0,20) < 10) ? 'left' : 'right';
+        this.horzAnim(random_direction);
       }
-      else if(this.settings.plane === 'vertical'){
-        this.vertAnim(this.settings.from_direction);
+      else{
+        this.horzAnim(this.settings.from_direction);
       }      
   },  
     
@@ -115,42 +116,6 @@
       }, base.rand(500,1500));      
     },
     
-    vertAnim: function(from_direction){
-      var 
-        base = this,
-        start_position = (from_direction === 'bottom') ? ( base.rand((base.window_height * 1.1), (base.window_height * 2)) ) : ( start_position = -1 * base.rand((base.window_height * 1.1), (base.window_height * 2)) ), 
-        fly_to = (from_direction === 'top') ? (base.top - base.settings.overshot) : (base.top + base.settings.overshot);
-      
-      //set start position
-      base.$el.css('top', start_position );
-      
-      //from right
-      setTimeout(function(){
-        
-        //fly in from right
-        base.$el.show().animate({'left': fly_to}, base.rand(200,500 ), function(){
-            
-            //hit the 'wall'
-            base.$el.animate(
-            {
-              'height': (base.height * base.rand(1,2)), 
-              'width': base.width * base.rand(.3, .7), 
-              'margin-left': -(base.width * base.rand(.2,.4))
-            }, base.max_anim_speed, function(){
-              
-              //bounce back
-              base.$el.animate(
-              { 
-                'height': base.height, 
-                'width': base.width, 
-                'margin-left':0, 
-                'top':base.top
-              }, ( base.max_anim_speed * 1.75));
-            });
-        });
-      }, base.rand(500,1500));      
-    },
-    
     //returns float
     rand: function(min, max){
       return Math.random() * (max - min) + min;
@@ -162,11 +127,11 @@
  /* PLUGIN DEFINITION
   * ======================= */
 
-  $.fn.smushIn = function (options) {
+  $.fn.smushIn = function (custom_options) {
     return this.each(function () {
       var 
         $el = $(this),
-        options = $.extend({}, $.fn.smushIn.defaults, options);
+        options = $.extend({}, $.fn.smushIn.defaults, custom_options);
       new SmushIn($el, options)
     })
   }
@@ -174,7 +139,6 @@
   $.fn.smushIn.defaults = {
     'overshot'        : 0,
     'speed'           : 'slow',
-    'plane'           : 'horizontal',
     'from_direction'  : 'left'      
   }
 

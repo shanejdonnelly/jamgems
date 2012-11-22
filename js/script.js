@@ -2,12 +2,13 @@ $(document).ready(function(){
   function play(){
     var left = 0;
     var top = 0;
-    $('.slice').each(function(){ 
+    $('.slice').each(function(){
+      var color = rand_hex(); 
       $(this)
         .css('left', left)
         .width($('.container').width() / 12)
-        .css('background-color', rand_hex())
-        .smushIn({ 'speed':'slow'});
+        .css('background-color', color)
+        .smushIn({ 'speed':'slow', 'from_direction':'right'});
       left += $(this).width();
     });
   }
