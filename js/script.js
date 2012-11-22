@@ -1,12 +1,13 @@
 $(document).ready(function(){
   function play(){
     var left = 0;
+    var top = 0;
     $('.slice').each(function(){ 
       $(this)
         .css('left', left)
         .width($('.container').width() / 12)
-        .smushIn({ 'speed':'slow'})
-        .css('background-color', rand_hex());
+        .css('background-color', rand_hex())
+        .smushIn({ 'speed':'slow'});
       left += $(this).width();
     });
   }

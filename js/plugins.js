@@ -53,7 +53,6 @@
     this.settings = options;
     this.$el = $element;
     this.setup();
-    this.stageRight();
   }
 
   SmushIn.prototype = {
@@ -64,24 +63,36 @@
       this.height = this.$el.height();
       this.width = this.$el.width();
       this.left = parseInt(this.$el.css('left'));
+      this.top = parseInt(this.$el.css('top'));
       this.font_size = parseInt(this.$el.css('font-size'));
       this.window_width = $(window).width();
+      this.window_height = $(window).height();
       this.max_anim_speed = (this.settings.speed === 'slow') ? 130 : 75;          
       
       if(this.settings.overshot === 0){ this.settings.overshot = this.rand(10,70) }
+      
+      //decide direction
+      if(this.settings.plane === 'horizontal') {
+        this.horzAnim(this.settings.from_direction);
+      }
+      else if(this.settings.plane === 'vertical'){
+        this.vertAnim(this.settings.from_direction);
+      }      
   },  
     
-    stageRight: function(){
-      var base = this;
+    horzAnim: function(from_direction){
+      var 
+        base = this,
+        start_position = (from_direction === 'right') ? ( base.rand((base.window_width * 1.1), (base.window_width * 2)) ) : ( start_position = -1 * base.rand((base.window_width * 1.1), (base.window_width * 2)) ), 
+        fly_to = (from_direction === 'right') ? (base.left - base.settings.overshot) : (base.left + base.settings.overshot);
+        
+      //set start position
+      base.$el.css('left', start_position );
       
-      //start stage right
-      base.$el.css('left', base.rand((base.window_width * 1.1), (base.window_width * 2)) );
-      
-      //from right
       setTimeout(function(){
         
-        //fly in from right
-        base.$el.show().animate({'left': (base.left - base.settings.overshot)}, base.rand(200,500 ), function(){
+        //fly in
+        base.$el.show().animate({'left': fly_to}, base.rand(200,500 ), function(){
             
             //hit the 'wall'
             base.$el.animate(
@@ -98,6 +109,42 @@
                 'width': base.width, 
                 'margin-top':0, 
                 'left':base.left
+              }, ( base.max_anim_speed * 1.75));
+            });
+        });
+      }, base.rand(500,1500));      
+    },
+    
+    vertAnim: function(from_direction){
+      var 
+        base = this,
+        start_position = (from_direction === 'bottom') ? ( base.rand((base.window_height * 1.1), (base.window_height * 2)) ) : ( start_position = -1 * base.rand((base.window_height * 1.1), (base.window_height * 2)) ), 
+        fly_to = (from_direction === 'top') ? (base.top - base.settings.overshot) : (base.top + base.settings.overshot);
+      
+      //set start position
+      base.$el.css('top', start_position );
+      
+      //from right
+      setTimeout(function(){
+        
+        //fly in from right
+        base.$el.show().animate({'left': fly_to}, base.rand(200,500 ), function(){
+            
+            //hit the 'wall'
+            base.$el.animate(
+            {
+              'height': (base.height * base.rand(1,2)), 
+              'width': base.width * base.rand(.3, .7), 
+              'margin-left': -(base.width * base.rand(.2,.4))
+            }, base.max_anim_speed, function(){
+              
+              //bounce back
+              base.$el.animate(
+              { 
+                'height': base.height, 
+                'width': base.width, 
+                'margin-left':0, 
+                'top':base.top
               }, ( base.max_anim_speed * 1.75));
             });
         });
@@ -125,8 +172,10 @@
   }
 
   $.fn.smushIn.defaults = {
-    'overshot'  : 0,
-    'speed'     : 'slow'      
+    'overshot'        : 0,
+    'speed'           : 'slow',
+    'plane'           : 'horizontal',
+    'from_direction'  : 'left'      
   }
 
   $.fn.smushIn.Constructor = SmushIn

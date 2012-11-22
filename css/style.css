@@ -36,8 +36,8 @@ hr{ margin:50px 0; }
 
 .portfolio .button_wrap .btn { width:50%; }
 
-#plugin_wrap{ position:relative; height:50px; margin-left:0; margin-bottom:30px; }
+#plugin_wrap{ position:relative; height:35px; margin-left:0; margin-bottom:30px; }
 
-#plugin_wrap .slice{ position:absolute; display:none; height:50px; z-index:99;}
+#plugin_wrap .slice{ position:absolute; display:none; height:35px; z-index:99;}
 
 .hero_message h1{ display:none; }
