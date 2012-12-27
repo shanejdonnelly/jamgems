@@ -264,8 +264,7 @@
         </div>
         <div class="span5">
           <h2>Shell Scripts</h2>
-          <hr>
-          </div><!-- .row -->     
+          <hr>  
           <h3>About:</h3>        
           <p>I recently took a class in shell scripting. I'll never be a system admin (nor do I aspire to be),
            but I learned a good number of tricks from the class. I've
