@@ -9,6 +9,31 @@
       
       <!-- Portfolio -->
       
+
+      <!-- Shell Scripts -->
+      <div class="row portfolio">
+        <div class="span4">
+          &nbsp;
+        </div>
+        <div class="span2">
+          <h3 class="code">Code Samples</h3>
+          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/shell_scripts/change-lines">SH &raquo;</a></p>
+          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/shell_scripts/clean_list">SH &raquo;</a></p>
+          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/shell_scripts/mywhich">SH &raquo;</a></p>
+          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/shell_scripts/s_mailer">SH &raquo;</a></p>
+        </div>
+        <div class="span5">
+          <h2>Shell Scripts</h2>
+          <hr>  
+          <h3>About:</h3>        
+          <p>I recently took a class in shell scripting. I'll never be a system admin (nor do I aspire to be),
+           but I learned a good number of tricks from the class. I've
+            included these code samples here mainly as an illustration of my ability to 
+            work from the command line.</p>   
+        </div>
+      </div><!-- .row -->
+
+      <hr>
       <!-- Timberland BootCo -->
       <div class="row portfolio">
         <div class="span4">
