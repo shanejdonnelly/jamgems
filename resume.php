@@ -46,7 +46,7 @@ include('includes/nav.php');
   </div>
   <div class="span4">
     <h1 class="resume_header">Skills</h1>
-    <ul>
+    <ul class="skills">
       <li>HTML5/CSS3</li>
       <li>Javascript/jQuery</li>
       <li>Linux/Apache/MySQL/PHP</li>

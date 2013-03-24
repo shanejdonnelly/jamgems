@@ -52,4 +52,7 @@ div.resume h3:first-child{margin-top:0 }
     h1.resume_title{ margin-bottom:12px; font-size:45px; }
     address{ margin_bottom:4px; margin-top:4px;padding:0; }
     h1.resume_header{ font-size:24px; }
+    ul.skills li{ display:inline-block; }
+    ul.skills li:after{ content: ", "; }
+    [class*="span"]{ width:100% }
 }
