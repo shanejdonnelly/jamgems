@@ -46,3 +46,10 @@ h1.resume_title{font-size:52px;margin-top:18px;}
 h1.resume_header{ border-bottom:1px solid #000; margin-bottom:12px;padding-bottom:4px; }
 div.resume h3{ margin-top:12px; }
 div.resume h3:first-child{margin-top:0 }
+
+@media print{
+    div.navbar{display:none;}
+    h1.resume_title{ margin-bottom:12px; font-size:45px; }
+    address{ margin_bottom:4px; margin-top:4px;padding:0; }
+    h1.resume_header{ font-size:24px; }
+}

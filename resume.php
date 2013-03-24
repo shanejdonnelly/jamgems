@@ -8,7 +8,7 @@ include('includes/nav.php');
     <div class="container">
 
 <!-- iframe height=1000 width=990 src="https://docs.google.com/document/d/1DScRIDK7DeGGPfXimyZrExJA3-KOYrw0CcmQ5LvBp_c/pub?embedded=true"></iframe -->
-<div class="row" style=" margin-bottom:24px;">
+<div class="row" style="margin-bottom:24px;">
   <div class="span8">
     <h1 class="resume_title">Shane Donnelly</h1>
   </div>
@@ -60,7 +60,7 @@ include('includes/nav.php');
       <li><a href="http://lookbook.timberland.com/en/2013/fall/tree/pr" title="Timberland Lookbook">http://lookbook.timberland.com</a></li>
       <li><a href="http://timberlandpro.com" title="Timberland PRO">http://timberlandpro.com</a></li>
       <li><a href="http://timberlandbootcompany.com" title="Timberland Boot Company">http://timberlandbootcompany.com</a></li>
-      <li><a href="../portfolio" title="Shane Donnelly Portfolio">Full Portfolio</a></li>
+      <li><a href="../portfolio" title="Shane Donnelly Portfolio">Full Portfolio - http://shane3.com/portfolio</a></li>
     </ul>
     <h1 class="resume_header">Education</h1>
     <ul class="unstyled">
