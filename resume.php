@@ -26,8 +26,10 @@ include('includes/nav.php');
     <h3>Web Developer, Timberland</h3>
     <h4>Stratham, NH &mdash; 2011-Present</h4>
     <ul>
-      <li>Develop feature rich, mobile optimized websites utilizing the latest web technologies.</li>
-      <li>Update multinational e-commerce sites and code marketing emails</li>
+      <li>Develop feature rich, mobile optimized websites</li>
+      <li>Update e-commerce sites on GSI and Demandware platforms
+</li>
+	<li>Code marketing emails</li>
       <li>Collaborate with designers, project managers and clients.</li>
     </ul>
     <h3>Web Developer, Freelance</h3>
@@ -57,10 +59,10 @@ include('includes/nav.php');
     </ul>
     <h1 class="resume_header">Portfolio</h1>
     <ul>
-      <li><a href="http://lookbook.timberland.com/en/2013/fall/tree/pr" title="Timberland Lookbook">http://lookbook.timberland.com</a></li>
-      <li><a href="http://timberlandpro.com" title="Timberland PRO">http://timberlandpro.com</a></li>
-      <li><a href="http://timberlandbootcompany.com" title="Timberland Boot Company">http://timberlandbootcompany.com</a></li>
-      <li><a href="../portfolio" title="Shane Donnelly Portfolio">Full Portfolio - http://shane3.com/portfolio</a></li>
+      <li><a href="http://lookbook.timberland.com/en/2013/fall/tree/pr" title="Timberland Lookbook" target="_blank">http://lookbook.timberland.com</a></li>
+      <li><a href="http://timberlandpro.com" title="Timberland PRO" target="_blank">http://timberlandpro.com</a></li>
+      <li><a href="http://timberlandbootcompany.com" title="Timberland Boot Company" target="_blank">http://timberlandbootcompany.com</a></li>
+      <li><a href="../portfolio" title="Shane Donnelly Portfolio" target="_blank">Full Portfolio - http://shane3.com/portfolio</a></li>
     </ul>
     <h1 class="resume_header">Education</h1>
     <ul class="unstyled">

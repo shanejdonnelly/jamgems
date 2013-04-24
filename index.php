@@ -13,7 +13,7 @@
       <div class="row" style="margin-top:30px; margin-bottom:30px; ">
        <div class="span6"> 
         <h1 style="font-size:60px; line-height:70px;">Hello, world!</h1>
-        <p style="font-size:18px; line-height:24px;">My name is Shane. I make stuff.</p>
+        <p style="font-size:18px; line-height:24px;">My name is Shane. I build stuff.</p>
         <p><a id="watch_again" class="btn btn-primary btn-large">Watch that again?</a></p>
         </div>
         <div class="span6 hero_message">

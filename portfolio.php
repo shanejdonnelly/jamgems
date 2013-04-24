@@ -12,7 +12,7 @@
       <!-- Timberland Lookbook -->
       <div class="row portfolio">
         <div class="span4">
-          <a class="portfolio_image" href="http://lookbook.timberland.com" title="Visit Timberland Lookbook" target="_blank"><img src="images/tbl_lookbook_400.jpg" alt="Timberland Lookbook" /></a>
+          <a class="portfolio_image" href="http://lookbook.timberland.com/2013/fall/tree/pr" title="Visit Timberland Lookbook" target="_blank"><img src="images/tbl_lookbook_400.jpg" alt="Timberland Lookbook" /></a>
         </div>
         <div class="span2">
           <h3 class="code">Code Samples</h3>
@@ -35,13 +35,12 @@
           <h3>About:</h3>      
           <p>
             One of the biggest challenges with this site - for the front end - was dealing with the 75+ large images that lived on the 
-            main page. After trying a few custom solutions with mixed results, I hit upon the <a href="http://www.appelsiini.net/projects/lazyload" title="Lazyload jQuery plugin" >Lazyload jQuery plugin</a>. Using data tags to 
-            house the actual image src and a placeholder image until the image is near the viewport, lazyload was perfect for this application.            
+            main page. The <a href="http://www.appelsiini.net/projects/lazyload" title="Lazyload jQuery plugin" >Lazyload jQuery plugin</a> fit the bill perfectly. It uses data tags to 
+            house the actual image src and a placeholder image until the image is near the viewport.
           </p>
           <p>
             I didn't use a javascript framework for this site, instead relying 
-            on a few namespace chunks and jQuery plugins where appropriate to keep the code lean and organized. 
-          </p>
+            on a few namespace chunks and jQuery plugins where appropriate to keep the code lean and organized. I also worked closely with the back end developer on this project to integrate the front end code with a custom PHP framework.</p> 
         </div>
       </div><!-- .row -->
 
