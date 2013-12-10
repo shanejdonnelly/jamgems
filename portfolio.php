@@ -8,6 +8,54 @@
     <div class="container">
       
       <!-- Portfolio -->
+
+      <!-- Timberland Pro Seeding -->
+      <div class="row portfolio">
+        <div class="span4">
+          <a class="portfolio_image" href="http://loyalty.timberlandpro.com" title="Visit Timberland Pro Seeding" target="_blank"><img src="images/pro_seeding_400.jpg" alt="Timberland Pro Seeding" /></a>
+        </div>
+        <div class="span2">
+          <h3 class="code">Code Samples</h3>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/app.js">App JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/app-router.js">Router JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/form-view.js">Form JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/form3-view.js">Form3 JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/logo-cycler-view.js">Cycler JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/validate.js">Validate JS &raquo;</a></p>
+
+
+
+</div>
+        <div class="span5">
+          <h2>Timberland Pro Seeding</h2>
+          <hr>
+          <h3>Technologies:</h3>
+          <div class="row">
+            <p class="span1">Javascript</p>
+            <p class="span1">Backbone.js</p>
+            <p class="span1">jQuery</p>
+          </div><!-- .row -->
+          <div class="row">
+            <p class="span1">HTML5</p>
+            <p class="span1">CSS3</p>
+            <p class="span1">XML</p>
+
+
+          </div><!-- .row --> 
+          <!--h3>About:</h3>      
+          <p>
+            One of the biggest challenges with this site - for the front end - was dealing with the 75+ large images that lived on the 
+            main page. The <a href="http://www.appelsiini.net/projects/lazyload" title="Lazyload jQuery plugin" >Lazyload jQuery plugin</a> fit the bill perfectly. It uses data tags to 
+            house the actual image src and a placeholder image until the image is near the viewport.
+          </p>
+          <p>
+            I didn't use a javascript framework for this site, instead relying 
+            on a few namespace chunks and jQuery plugins where appropriate to keep the code lean and organized. I also worked closely with the back end developer on this project to integrate the front end code with a custom PHP framework.</p --> 
+        </div>
+      </div><!-- .row -->
+
+      <hr>
+
       
       <!-- Timberland Lookbook -->
       <div class="row portfolio">

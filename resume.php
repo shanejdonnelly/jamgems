@@ -26,10 +26,8 @@ include('includes/nav.php');
     <h3>Web Developer, Timberland</h3>
     <h4>Stratham, NH &mdash; 2011-Present</h4>
     <ul>
-      <li>Develop feature rich, mobile optimized websites</li>
-      <li>Update e-commerce sites on GSI and Demandware platforms
-</li>
-	<li>Code marketing emails</li>
+      <li>Develop feature rich, responsive websites</li>
+      <li>Update e-commerce sites on GSI and Demandware platforms </li> 
       <li>Collaborate with designers, project managers and clients.</li>
     </ul>
     <h3>Web Developer, Freelance</h3>
