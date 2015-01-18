@@ -8,6 +8,50 @@
     <div class="container">
       
       <!-- Portfolio -->
+      <!-- SG -->
+      <div class="row portfolio">
+        <div class="span4">
+          <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-desktop-tall.png" alt="Supreme Golf"/></a>
+<br><br>
+          <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-mobile.png" alt="Supreme Golf"/></a>
+        </div>
+        <div class="span2">
+          <h3 class="code">Code Samples</h3>
+          <p class="button_wrap"><a class="btn " target="_blank" href="">Main JS &raquo;</a></p>
+
+</div>
+
+        <div class="span5">
+          <h2>Supreme Golf</h2>
+          <hr>
+          <h3>Technologies:</h3>
+          <div class="row">
+            <p class="span1">React</p>
+           <p class="span1">SASS</p>  
+            <p class="span1">Rails</p>
+          </div><!-- .row -->
+          <div class="row">
+            <p class="span1">jQuery</p>
+           <p class="span1">Vim</p>  
+            <p class="span1">Git</p>
+          </div><!-- .row -->
+
+          <h3>About:</h3>      
+    <ul>
+      <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
+      <li>Established a CSS styleguide</li>
+      <li>Recoded site CSS from the ground up, using SMACSS and BEM principles</li> 
+      <li>Established and regularly contributed to a company Wiki</li>
+      <li>Created a customizable, embeddable microsite/widget that utilized our API</li>
+      <li>Worked daily with RAILS templates and helpers written in HAML</li> 
+    </ul> 
+
+
+        </div>
+      </div><!-- .row -->
+
+      <hr>
+
 
       <!-- Bootco Tablet site -->
       <div class="row portfolio">
