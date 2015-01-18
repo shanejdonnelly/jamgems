@@ -1,0 +1,106 @@
+@font-face {font-family: 'museo';src: url('fonts/museo.eot');src: url('fonts/museo.eot?#iefix') format('embedded-opentype'),url('fonts/museo.woff') format('woff'),url('fonts/museo.ttf') format('truetype');}
+
+*{ margin:0; padding:0; }
+
+.row {
+
+  *zoom: 1;
+}
+
+
+
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+
+}
+
+.span1{ width:20%; }
+.span25{ position: relative; height: 250px; width:25%; }
+.span2{ width:50%; }
+.span3{ width:75%; }
+.span4{ width:100%; }
+.span13{ width:33.3%; }
+.span23{ width:66.7%; }
+
+html{ overflow-y: scroll; }
+html, body{ height:100%; }  
+
+#wrapper{}
+
+.scene{ min-height:100%; padding: 5% 0; }
+#scene-one{ position:relative; overflow:hidden; padding-top:2%; }
+#scene-two{ position:relative; display:none; overflow:hidden; padding:2% 0; width:100%; }
+#up-arrow{ display:block; opacity:0.65; height:40px;width:40px; cursor:pointer; position:absolute;right:1%;top:2%; }
+#up-arrow:hover, #up-arrow:active{ opacity:1; }  
+
+h1, h2{ font-family: 'museo', sans-serif; font-weight:normal; color:#fff;  }
+h1{ font-size:45px;  }
+h2{ font-size:25px; }
+#greeting h1{ display:none; text-align:center; font-size:55px; line-height:55px; position:fixed; top:40%; left:1%; width:100%;  }
+#happyholiday h1{ margin-left:5%; margin-top:2%; }
+#happyholiday h2{ margin-left:5%; }
+
+.blue-bg{ background:url('images/bg.jpg') no-repeat; background-size: cover; }
+.red-bg{
+    background: #003c00; 
+}
+.jamWrap{ position:relative; float:left; width:90%; margin-left:5%; padding-top:3%; }
+.jamWrap img{ display:none; position: absolute; width: 100%; max-width:500px; border:solid 5px #fff; }
+.jam-top{ margin-top:15px; }
+
+#j1{ margin-top:5%; margin-left:5%; }
+#j2{ margin-top:8%; margin-left:-10;}
+#j3{ margin-top:15%; margin-left:-6%;}
+#j4{ margin-top:8%; margin-left:-8%;}
+
+#j5{ margin-top:2%; margin-left:3%; }
+#j6{ margin-top:12%; margin-left:-9;}
+#j7{ margin-top:7%; margin-left:-4%;}
+#j8{ margin-top:1%; margin-left:-12%;}
+
+
+#morgansWorld{ display:none; position:relative; left:50%; margin-left:-45%; width:90%; z-index:999; }
+#morgansWorld img{ position:absolute; max-width:230px; width:18%;  border:solid 3px #fff;}
+#morgansWorld img#m1{ left:0; }
+#morgansWorld img#m2{ left:20%; }
+#morgansWorld img#m3{ left:40%; }
+#morgansWorld img#m4{ left:60%; }
+#morgansWorld img#m5{ left:80%; }
+
+#family{ margin-left:5%; margin-top:2%; width:90%; border: 5px solid #fff; }
+
+.rotate-left{
+    -webkit-transform: rotate(7.5deg); 
+     -moz-transform: rotate(7.5deg); 
+      -ms-transform: rotate(7.5deg); 
+       -o-transform: rotate(7.5deg); 
+          transform: rotate(7.5deg); 
+
+}
+
+.rotate-right{ 
+  -webkit-transform: rotate(-7.5deg); 
+     -moz-transform: rotate(-7.5deg); 
+      -ms-transform: rotate(-7.5deg); 
+       -o-transform: rotate(-7.5deg); 
+          transform: rotate(-7.5deg); 
+
+}
+
+@media only screen and (max-width: 767px) {
+    #greeting h1{ font-size:35px; line-height:35px; }
+    #scene-two .span2{  
+        width:100%;
+    }
+    #scene-one .span25{ width:50%; }
+}

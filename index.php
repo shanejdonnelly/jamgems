@@ -10,7 +10,7 @@
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       
-      <div class="row" style="margin-top:30px; margin-bottom:30px; ">
+      <!--div class="row" style="margin-top:30px; margin-bottom:30px; ">
        <div class="span6"> 
         <h1 style="font-size:60px; line-height:70px;">Hello, world!</h1>
         <p style="font-size:18px; line-height:24px;">My name is Shane. I build stuff.</p>
@@ -20,10 +20,21 @@
           <h1>Kind of cool, huh?</h1>
           <h1>Try rolling over it.</h1>
         </div>
-      </div>
+      </div-->
+
+      <div class="row">
+        <div class="span6">
+          <h1 style="font-size:60px; line-height:70px;">Hello, world!</h1>
+          <p style="font-size:18px; line-height:24px;">My name is Shane. I build stuff.</p> 
+        </div>
+        <div>
+    <a class="twitter-timeline" href="https://twitter.com/shanejdonnelly" data-widget-id="556928495419662337">Tweets by @shanejdonnelly</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+    </div>
       
       
-        <div class="row" id="plugin_wrap">
+        <!--div class="row" id="plugin_wrap">
           <div class="slice" ></div>
           <div class="slice" ></div>
           <div class="slice" ></div>
@@ -36,7 +47,7 @@
           <div class="slice" ></div>       
           <div class="slice" ></div>       
           <div class="slice" ></div>  
-        </div>
+        </div-->
       
       <!-- Example row of columns -->
       <!--

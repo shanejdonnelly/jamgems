@@ -23,12 +23,24 @@ include('includes/nav.php');
 <div class="row">
   <div class="span8 resume">
     <h1 class="resume_header">Experience</h1>
+    <h3>Front End Web Developer, Supreme Golf</h3>
+    <h4>Remote &mdash; 2014-Present</h4>
+    <p>Technologies used: SASS, React, Angular, jQuery, Rails, Git, HTML5/CSS3</p>
+    <ul>
+      <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
+      <li>Established a CSS styleguide</li>
+      <li>Recoded site CSS from the ground up, using SMACSS and BEM principles</li> 
+      <li>Established and regularly contributed to a company Wiki</li>
+      <li>Created a customizable, embeddable microsite/widget that utilized our API</li>
+      <li>Worked daily with RAILS templates and helpers written in HAML</li> 
+    </ul> 
     <h3>Web Developer, Timberland</h3>
-    <h4>Stratham, NH &mdash; 2011-Present</h4>
+    <h4>Stratham, NH &mdash; 2011-2014</h4>
+    <p>Technologies used: jQuery, Backbone, PHP, Wordpress, Git, HTML5/CSS3</p>
     <ul>
       <li>Develop feature rich, responsive websites</li>
-      <li>Update e-commerce sites on GSI and Demandware platforms </li> 
       <li>Collaborate with designers, project managers and clients.</li>
+      <li>Support e-commerce sites on GSI and Demandware platforms </li> 
     </ul>
     <h3>Web Developer, Freelance</h3>
     <h4>Searsport, ME &mdash; 2008-Present</h4>

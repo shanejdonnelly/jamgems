@@ -1,0 +1,28 @@
+<div class="row">
+  <form ng-submit="addEvent()" class="col-md-4">
+    <div class="form-group">
+      <label>Title</label>
+      <input class="form-control" type="text" ng-model="event.title" />
+    </div>
+    <div class="form-group">
+      <label>Description</label>
+      <input class="form-control" type="text" ng-model="event.description" />
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" ng-model="event.private">Private?
+      </label>
+    </div>
+    <input class="btn btn-default" type="submit" value="Submit" />
+  </form>
+</div>
+<p>{{auth.user.id}}</p>
+<div class="row" ng-repeat="event in events">
+  <div class="event col-md-4">
+    <h2>{{event.title}}</h2>
+    <p>{{event.description}}</p>
+    <p ng-if="isPrivate(event)">PrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivatePrivate</p>
+
+
+  </div>
+</div>

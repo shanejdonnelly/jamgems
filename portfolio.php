@@ -9,6 +9,45 @@
       
       <!-- Portfolio -->
 
+      <!-- Bootco Tablet site -->
+      <div class="row portfolio">
+        <div class="span4">
+          <a class="portfolio_image" href="http://www.timberlandbootcompany.com/fall14" title="Visit Timberland's Bootco iPad site" target="_blank"><img src="images/ipad_bootco_400.jpg" alt="Timberland Bootco"/></a>
+        </div>
+        <div class="span2">
+          <h3 class="code">Code Samples</h3>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco/main.js">Main JS &raquo;</a></p>
+          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco/footwear.php">Footwear PHP &raquo;</a></p>
+
+
+</div>
+
+        <div class="span5">
+          <h2>Timberland iPad Bootco</h2>
+          <hr>
+          <h3>Technologies:</h3>
+          <div class="row">
+            <p class="span1">Javascript</p>
+           <p class="span1">HTML5</p>  
+            <p class="span1">jQuery</p>
+          </div><!-- .row -->
+          <div class="row">
+         
+            <p class="span1">CSS3</p>
+
+          </div><!-- .row --> 
+          <h3>About:</h3>      
+          <p>
+		This is an iPad only sales tool that I built for Timberland. It was a rush project and very simple at it's core, so it is just a flat HTML site. Unlike most other 
+Timberland sites, it doesn't require multiple language support and did not need to be built on a framework. </p>
+<p>
+One of the more interesting pieces was coding the overlay elements that display the shoes and bags in more detail. I was very impressed with the <a href="http://www.idangero.us/sliders/swiper/api.php" title="iDangerous slider">iDangerous slider</a>. It was easy to work with and very full featured. 
+</p>
+        </div>
+      </div><!-- .row -->
+
+      <hr>
+
       <!-- Timberland Pro Seeding -->
       <div class="row portfolio">
         <div class="span4">
