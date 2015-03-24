@@ -15,14 +15,12 @@
 <br><br>
           <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-mobile.png" alt="Supreme Golf"/></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn " target="_blank" href="">Main JS &raquo;</a></p>
+        <div class="span1">&nbsp; </div>
 
-</div>
-
-        <div class="span5">
+        <div class="span6">
           <h2>Supreme Golf</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/supreme_golf" target="_blank" title="Supreme Golf Code Samples">View code samples</a>
+          <a href="https://supremegolf.com" class="live-site-link" target="_blank" title="Visit Supreme Golf">View live site</a>
           <hr>
           <h3>Technologies:</h3>
           <div class="row">
@@ -32,8 +30,8 @@
           </div><!-- .row -->
           <div class="row">
             <p class="span1">jQuery</p>
-           <p class="span1">Vim</p>  
-            <p class="span1">Git</p>
+           <p class="span1">Git</p>  
+            <p class="span1">HAML</p>
           </div><!-- .row -->
 
           <h3>About:</h3>      
@@ -41,9 +39,9 @@
       <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
       <li>Established a CSS styleguide</li>
       <li>Recoded site CSS from the ground up, using SMACSS and BEM principles</li> 
-      <li>Established and regularly contributed to a company Wiki</li>
-      <li>Created a customizable, embeddable microsite/widget that utilized our API</li>
-      <li>Worked daily with RAILS templates and helpers written in HAML</li> 
+      <li>Created a SPA microsite using React and Backbone, with data from the SG API</li>
+      <li>Established and regularly contributed to a company Wiki</li> 
+      <li>Worked daily with RAILS templates and helpers</li> 
     </ul> 
 
 
@@ -58,16 +56,12 @@
         <div class="span4">
           <a class="portfolio_image" href="http://www.timberlandbootcompany.com/fall14" title="Visit Timberland's Bootco iPad site" target="_blank"><img src="images/ipad_bootco_400.jpg" alt="Timberland Bootco"/></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco/main.js">Main JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco/footwear.php">Footwear PHP &raquo;</a></p>
+        <div class="span1">&nbsp; </div>
 
-
-</div>
-
-        <div class="span5">
+        <div class="span6">
           <h2>Timberland iPad Bootco</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco " target="_blank" title="Code Samples">View code samples</a>
+          <a href="http://timberlandbootcompany.com/fall14" class="live-site-link" target="_blank" title="Visit Timberland iPad Bootco">View live site</a>
           <hr>
           <h3>Technologies:</h3>
           <div class="row">
@@ -97,20 +91,10 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://loyalty.timberlandpro.com" title="Visit Timberland Pro Seeding" target="_blank"><img src="images/pro_seeding_400.jpg" alt="Timberland Pro Seeding" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/app.js">App JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/app-router.js">Router JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/form-view.js">Form JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/form3-view.js">Form3 JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/logo-cycler-view.js">Cycler JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding/validate.js">Validate JS &raquo;</a></p>
-
-
-
-</div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+        <div class="span6">
           <h2>Timberland Pro Seeding</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding" target="_blank" title="Code Samples">View code samples</a>
           <hr>
           <h3>Technologies:</h3>
           <div class="row">
@@ -145,12 +129,11 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://lookbook.timberland.com/2013/fall/tree/pr" title="Visit Timberland Lookbook" target="_blank"><img src="images/tbl_lookbook_400.jpg" alt="Timberland Lookbook" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_lookbook">JS &raquo;</a></p>
-</div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+
+        <div class="span6">
           <h2>Timberland Lookbook<sup>&reg;</sup></h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_lookbook" target="_blank" title="Code Samples">View code samples</a>
           <hr>
           <h3>Technologies:</h3>
           <div class="row">
@@ -182,13 +165,12 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://timberlandpro.com" title="Visit Timberland PRO" target="_blank"><img src="images/tblPro_400.jpg" alt="Timberland PRO" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_pro/pro_util.js">JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_pro/script.js">JS &raquo;</a></p>
-        </div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+
+        <div class="span6">
           <h2>Timberland<sup>&reg;</sup> PRO</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_pro" target="_blank" title="Code Samples">View code samples</a>
+          <a href="http://timberlandpro.com" class="live-site-link" target="_blank" title="Visit Timberland PRO">View live site</a>
           <hr>
           <h3>Technologies Used:</h3>
           <div class="row">
@@ -220,17 +202,12 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://timberlandbootcompany.com" title="Visit Timberland Boot Company" target="_blank"><img src="images/tbl_bootco_400.png" alt="Timberland Boot Company" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_bootco/functions.php">PHP &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_bootco/template.php">PHP &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_bootco/lang_en.xml">XML &raquo;</a></p>
-          <p class="button_wrap"><a class="btn " target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_bootco/plugins.js">JS &raquo;</a></p>
-      
+        <div class="span1">&nbsp; </div>
 
-        </div>
-        <div class="span5">
+        <div class="span6">
           <h2>Timberland Boot Company<sup>&reg;</sup></h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_bootco" target="_blank" title="Code Samples">View code samples</a>
+
           <hr>
           <h3>Technologies:</h3>
           <div class="row">
@@ -263,14 +240,11 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://technology.timberland.com" title="Visit Timberland Technology Guide" target="_blank"><img src="images/tblTech_400.jpg" alt="Timberland Technology Guide" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_tech/script.js">JS &raquo;</a></p>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_tech/functions.php">PHP &raquo;</a></p>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/timberland_tech/template.php">PHP &raquo;</a></p>
-        </div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+        <div class="span6">
           <h2>Timberland<sup>&reg;</sup> Technology Guide</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_tech" target="_blank" title="Code Samples">View code samples</a>
+          <a href="http://technology.timberland.com" class="live-site-link" target="_blank" title="Visit Timberland Tech">View live site</a>
           <hr>
           <h3>Technologies Used:</h3>
           <div class="row">
@@ -303,11 +277,8 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://www.kochbrothers.democracyforamerica.com/" title="Visit Koch Brothers Movie Night" target="_blank"><img src="images/koch_400.jpg" alt="Koch Brothers Movie Night" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">&nbsp;</h3>
-
-        </div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+        <div class="span6">
           <h2>Koch Brothers Movie Night</h2>
           <hr>
           <h3>Technologies Used:</h3>
@@ -339,11 +310,8 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span4">
           <a class="portfolio_image" href="http://www.loonecholandtrust.org/" title="Visit Loon Echo Land Trust" target="_blank"><img src="images/loon_400.jpg" alt="Loon Echo Land Trust" /></a>
         </div>
-        <div class="span2">
-          <h3 class="code">Code Samples</h3>
-          <p class="button_wrap"><a class="btn" target="_blank" href="https://github.com/shanejdonnelly/portfolio/blob/master/loon_echo/style.css">CSS &raquo;</a></p>
-        </div>
-        <div class="span5">
+        <div class="span1">&nbsp; </div>
+        <div class="span6">
           <h2>Loon Echo Land Trust</h2>
           <hr>
           <h3>Technologies Used:</h3>

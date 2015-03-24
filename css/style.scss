@@ -1,0 +1,62 @@
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+html{overflow-x:hidden;}
+
+body{ background: #f7f7f7; }
+
+hr{ margin:50px 0; }
+
+#brand_box{
+  height:50px;
+  width:130px;
+  position:absolute;
+  top:0;
+  left:-15px;
+  border:1px solid #333;
+  background-color:#F7F7F7;
+  z-index:1;
+}
+
+@media (max-width: 979px) {
+  .navbar .nav{ left:0; }
+  .navbar .nav > li > a{ padding: 6px 15px; line-height:19px; }
+  .navbar .nav > li > a:hover { background:rgba(0,0,0,0.3); color:#fff; }
+  .navbar-inner{ box-shadow:1px 2px 2px 5px rgba(50,50,50,0.3); }
+  .navbar-inner:before, .navbar-inner:after{ box-shadow:none; }
+}
+
+
+.portfolio hr{ margin:18px 0; }
+
+.portfolio h2{ padding-bottom: 10px; }
+.live-site-link{ padding-left: 20px; }
+.portfolio h3.code{ text-align:center; margin:8px 0; }
+
+.portfolio .button_wrap{ text-align:center; }
+
+.portfolio .button_wrap .btn { width:50%; }
+
+#plugin_wrap{ position:relative; height:35px; margin-left:0; margin-bottom:30px; }
+
+#plugin_wrap .slice{ position:absolute; background-color: brown; display:none; height:35px; z-index:99;}
+
+.hero_message h1{ display:none; }
+
+h1.resume_title{font-size:52px;margin-top:18px;}
+h1.resume_header{ border-bottom:1px solid #000; margin-bottom:12px;padding-bottom:4px; }
+div.resume h3{ margin-top:12px; }
+div.resume h3:first-child{margin-top:0 }
+
+@media print{
+    div.navbar{display:none;}
+    h1.resume_title{ margin-bottom:12px; font-size:45px; }
+    address{ margin_bottom:4px; margin-top:4px;padding:0; }
+    h1.resume_header{ font-size:24px; }
+    ul.skills li{ display:inline-block; }
+    ul.skills li:after{ content: ", "; }
+    [class*="span"]{ width:100% }
+}

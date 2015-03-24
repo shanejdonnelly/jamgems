@@ -14,7 +14,7 @@ include('includes/nav.php');
   </div>
   <div class="span4">
     <address>Searsport, ME<br/>shanejdonnelly@gmail.com<br/>
-    <a href="http://shane3.com/portfolio" title="Shane Donnelly Portfolio">http://shane3.com/portfolio</a>
+    <a href="http://jamgems.net/portfolio" title="Shane Donnelly Portfolio">http://jamgems.net/portfolio</a>
     <br/>
     <a href="http://linkedin.com/in/shanejdonnelly" title="Shane Donnelly on LinkedIn">http://linkedin.com/in/shanejdonnelly</a>
     </address>
@@ -25,14 +25,14 @@ include('includes/nav.php');
     <h1 class="resume_header">Experience</h1>
     <h3>Front End Web Developer, Supreme Golf</h3>
     <h4>Remote &mdash; 2014-Present</h4>
-    <p>Technologies used: SASS, React, Angular, jQuery, Rails, Git, HTML5/CSS3</p>
+    <p>Technologies used: SASS, HAML, React, Bootstrap, jQuery, Rails, Git, HTML5/CSS3</p>
     <ul>
       <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
-      <li>Established a CSS styleguide</li>
+      <li>Established a living styleguide</li>
       <li>Recoded site CSS from the ground up, using SMACSS and BEM principles</li> 
-      <li>Established and regularly contributed to a company Wiki</li>
-      <li>Created a customizable, embeddable microsite/widget that utilized our API</li>
-      <li>Worked daily with RAILS templates and helpers written in HAML</li> 
+      <li>Created a SPA microsite using React and Backbone, with data from the SG API</li>
+      <li>Established and regularly contributed to a company Wiki</li> 
+      <li>Worked daily with RAILS templates and helpers</li> 
     </ul> 
     <h3>Web Developer, Timberland</h3>
     <h4>Stratham, NH &mdash; 2011-2014</h4>
@@ -44,6 +44,7 @@ include('includes/nav.php');
     </ul>
     <h3>Web Developer, Freelance</h3>
     <h4>Searsport, ME &mdash; 2008-Present</h4>
+    <p>Technologies used: Linux, Apache, MySQL, Photoshop, Various CMS</p>
     <ul>
       <li>Code front and back end of projects</li>
       <li>Administer LAMP server</li>
@@ -61,17 +62,20 @@ include('includes/nav.php');
     <ul class="skills">
       <li>HTML5/CSS3</li>
       <li>Javascript/jQuery</li>
+      <li>React, Backbone</li> 
+      <li>SASS</li> 
       <li>Linux/Apache/MySQL/PHP</li>
       <li>Wordpress</li>
       <li>Photoshop</li>
       <li>Git</li>
       <li>Vim</li>
+      <li>HAML</li> 
     </ul>
     <h1 class="resume_header">Portfolio</h1>
     <ul>
-      <li><a href="http://lookbook.timberland.com/en/2013/fall/tree/pr" title="Timberland Lookbook" target="_blank">http://lookbook.timberland.com</a></li>
-      <li><a href="http://timberlandpro.com" title="Timberland PRO" target="_blank">http://timberlandpro.com</a></li>
-      <li><a href="http://timberlandbootcompany.com" title="Timberland Boot Company" target="_blank">http://timberlandbootcompany.com</a></li>
+      <li><a href="http://supremegolf.com" title="Supreme Golf" target="_blank">http://supremegolf.com</a></li> 
+      <li><a href="http://timberlandpro.com" title="Timberland PRO" target="_blank">http://timberlandpro.com</a></li> 
+      <li><a href="http://technology.timberland.com" title="Timberland Tech" target="_blank">http://technology.timberland.com</a></li> 
       <li><a href="../portfolio" title="Shane Donnelly Portfolio" target="_blank">Full Portfolio - http://shane3.com/portfolio</a></li>
     </ul>
     <h1 class="resume_header">Education</h1>
