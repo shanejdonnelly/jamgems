@@ -1,11 +1,151 @@
 /* ===== Primary Styles ========================================================
    Author:
    ========================================================================== */
+.navbar .btn-navbar, .navbar .btn-navbar:hover, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled]{
+  background-color: #bb2244;
+  background-image: none;
+}
+.help-p{
+  margin-top: 35px;
+  text-align: right;
+}
+.contact-link{ 
+  border-bottom: 1px dotted #bb2244;
+  color: #bb2244;
+}
+.contact-link:hover{ 
+  color: #bb2244; 
+  border-bottom: 1px solid #bb2244;
+  text-decoration: none;
+}
+.howdy{
+  font-size: 58px;line-height: 58px; margin-bottom: 30px; 
+}
+.about{
+  font-size: 18px;
+  line-height: 26px;
+  float: right;
+  width: 66.66%;
+}
+.pic{
+  font-size: 28px;
+  line-height: 32px;
+  float: left;
+  width: 33.33%;
+}
+.pic img{
+  border-radius: 50%; 
+  box-shadow: 0px 1px 5px 0 rgba(0,0,0,0.25);
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.circle{
+  background: #bb2244;
+  box-shadow: 1px 4px 8px rgba(0,0,0,0.75);
+  clear: both;
+  color: white;
+  float: right;
+  height: 200px;
+  margin-top: 62px;
+  margin-right: 187px;
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+}
+.circle-text{ 
+  font-size: 24px; 
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+0%, 60%, 75%, 90%, 100% {
+-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+0% {
+opacity: 0;
+-webkit-transform: translate3d(0, -3000px, 0);
+transform: translate3d(0, -3000px, 0);
+}
+
+60% {
+opacity: 1;
+-webkit-transform: translate3d(0, 25px, 0);
+transform: translate3d(0, 25px, 0);
+}
+
+75% {
+-webkit-transform: translate3d(0, -10px, 0);
+transform: translate3d(0, -10px, 0);
+}
+
+90% {
+-webkit-transform: translate3d(0, 5px, 0);
+transform: translate3d(0, 5px, 0);
+}
+
+100% {
+-webkit-transform: none;
+transform: none;
+}
+}
+@keyframes bounceInDown {
+0%, 60%, 75%, 90%, 100% {
+transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+0% {
+opacity: 0;
+transform: translate3d(0, -3000px, 0);
+}
+
+60% {
+opacity: 1;
+transform: translate3d(0, 25px, 0);
+}
+
+75% {
+transform: translate3d(0, -10px, 0);
+}
+
+90% {
+transform: translate3d(0, 5px, 0);
+}
+
+100% {
+transform: none;
+}
+}
+
+.bounceInDown {
+animation-name: bounceInDown;
+-webkit-animation-name: bounceInDown;
+}
+
 html {
   overflow-x: hidden; }
 
 body {
-  background: #f7f7f7; }
+  font-family: 'Raleway', serif; 
+  font-weight: 400;
+  background: #f7f7f7;
+  padding-top: 118px;
+ }
 
 hr {
   margin: 50px 0; }
@@ -20,9 +160,45 @@ hr {
   background-color: #F7F7F7;
   z-index: 1; }
 
+.navbar-inner {
+  background: #f7f7f7;
+  border-bottom: 1px solid white;
+  box-shadow: none;
+  min-height: 60px;
+  padding: 10px 0;
+}
+.navbar .brand{
+  color: #bb2244;
+  font-size: 34px;
+  font-weight: 400;
+}
+.navbar .nav{
+  float: right;
+  margin-top: 8px;
+}
+.navbar .nav>li>a{
+  color: #444;
+  font-weight: 400;
+  font-size: 14px;
+  text-shadow: none;
+  padding: 9px 20px 11px;
+}
+.navbar .nav>li>a:hover{
+  color: #bb2244;
+}
+
 @media (max-width: 979px) {
+  body{ padding-top: 0; }
+  #warped{ display: none; }
+  .help-p{ text-align: left; }
+  .pic, .about{ width: 100%; }
+  .pic{ display: none; }
+  .howdy{ font-size: 35px; line-height: 40px;}
   .navbar .nav {
-    left: 0; }
+    float: left;
+    left: 0; 
+    width: 100%;
+  }
 
   .navbar .nav > li > a {
     padding: 6px 15px;
@@ -32,8 +208,6 @@ hr {
     background: rgba(0, 0, 0, 0.3);
     color: #fff; }
 
-  .navbar-inner {
-    box-shadow: 1px 2px 2px 5px rgba(50, 50, 50, 0.3); }
 
   .navbar-inner:before, .navbar-inner:after {
     box-shadow: none; } }
@@ -88,6 +262,7 @@ div.resume h3:first-child {
   margin-top: 0; }
 
 @media print {
+  body{background: white;}
   div.navbar {
     display: none; }
 
