@@ -1,6 +1,6 @@
 <?php 
   include('includes/functions.php'); 
-  do_header('Portfolio', '');
+  do_header('Portfolio', 'portfolio');
   
   include('includes/nav.php');
 ?>

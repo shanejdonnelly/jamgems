@@ -178,6 +178,12 @@ hr {
   float: right;
   margin-top: 8px;
 }
+
+.portfolio .navbar .nav>li>a.portfolio,
+.resume .navbar .nav>li>a.resume{
+  color: #bb2244;
+}
+
 .navbar .nav>li>a{
   color: #444;
   font-weight: 400;

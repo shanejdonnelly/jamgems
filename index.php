@@ -1,6 +1,6 @@
 <?php 
   include('includes/functions.php'); 
-  do_header('Home', '');
+  do_header('Home', 'home');
   
   include('includes/nav.php');
 ?>

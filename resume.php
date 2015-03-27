@@ -1,6 +1,6 @@
 <?php 
 include('includes/functions.php'); 
-do_header('Resume', '');
+do_header('Resume', 'resume');
 
 include('includes/nav.php');
 ?>
