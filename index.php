@@ -7,32 +7,18 @@
 
 
     <div class="container">
-
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      
-      <!--div class="row" style="margin-top:30px; margin-bottom:30px; ">
-       <div class="span6"> 
-        <h1 style="font-size:60px; line-height:70px;">Hello, world!</h1>
-        <p style="font-size:18px; line-height:24px;">My name is Shane. I build stuff.</p>
-        <p><a id="watch_again" class="btn btn-primary btn-large">Watch that again?</a></p>
-        </div>
-        <div class="span6 hero_message">
-          <h1>Kind of cool, huh?</h1>
-          <h1>Try rolling over it.</h1>
-        </div>
-      </div-->
-           <div id='warped' class="">
-                     <span class='w0'>H</span><span class='w1'>T</span><span class='w2'>M</span><span class='w3'>L</span><span class='w4'>5</span><span class='w5'>,</span><span class='w6'> </span><span class='w7'>C</span><span class='w8'>S</span><span class='w9'>S</span><span class='w10'>,</span><span class='w11'> </span><span class='w12'>S</span><span class='w13'>a</span><span class='w14'>s</span><span class='w15'>s</span><span class='w16'>,</span><span class='w17'> </span><span class='w18'>j</span><span class='w19'>Q</span><span class='w20'>u</span><span class='w21'>e</span><span class='w22'>r</span><span class='w23'>y</span><span class='w24'>,</span><span class='w25'> </span><span class='w26'>j</span><span class='w27'>a</span><span class='w28'>v</span><span class='w29'>a</span><span class='w30'>s</span><span class='w31'>c</span><span class='w32'>r</span><span class='w33'>i</span><span class='w34'>p</span><span class='w35'>t</span><span class='w36'>,</span><span class='w37'> </span><span class='w38'>H</span><span class='w39'>a</span><span class='w40'>m</span><span class='w41'>l</span><span class='w42'>,</span><span class='w43'> </span><span class='w44'>G</span><span class='w45'>i</span><span class='w46'>t</span><span class='w47'>,</span><span class='w48'> </span><span class='w49'>V</span><span class='w50'>i</span><span class='w51'>m</span><span class='w52'>,</span><span class='w53'> </span><span class='w54'>L</span><span class='w55'>A</span><span class='w56'>M</span><span class='w57'>P</span><span class='w58'>,</span><span class='w59'> </span><span class='w60'>R</span><span class='w61'>u</span><span class='w62'>b</span><span class='w63'>y</span><span class='w64'> </span><span class='w65'>o</span><span class='w66'>n</span><span class='w67'> </span><span class='w68'>R</span><span class='w69'>a</span><span class='w70'>i</span><span class='w71'>l</span><span class='w72'>s</span><span class='w73'>,</span><span class='w74'> </span><span class='w75'>a</span><span class='w76'>n</span><span class='w77'>d</span><span class='w78'> </span><span class='w79'>m</span><span class='w80'>u</span><span class='w81'>c</span><span class='w82'>h</span><span class='w83'> </span><span class='w84'>m</span><span class='w85'>o</span><span class='w86'>r</span><span class='w87'>e</span><span class='w88'>!</span>
+        <div id='warped'>
+                     <span class='w0'> </span><span class='w1'>.</span><span class='w2'>.</span><span class='w3'>.</span><span class='w4'>H</span><span class='w5'>T</span><span class='w6'>M</span><span class='w7'>L</span><span class='w8'>5</span><span class='w9'>,</span><span class='w10'> </span><span class='w11'>H</span><span class='w12'>a</span><span class='w13'>m</span><span class='w14'>l</span><span class='w15'>,</span><span class='w16'> </span><span class='w17'>C</span><span class='w18'>S</span><span class='w19'>S</span><span class='w20'>,</span><span class='w21'> </span><span class='w22'>S</span><span class='w23'>a</span><span class='w24'>s</span><span class='w25'>s</span><span class='w26'>,</span><span class='w27'> </span><span class='w28'>j</span><span class='w29'>Q</span><span class='w30'>u</span><span class='w31'>e</span><span class='w32'>r</span><span class='w33'>y</span><span class='w34'>,</span><span class='w35'> </span><span class='w36'>J</span><span class='w37'>a</span><span class='w38'>v</span><span class='w39'>a</span><span class='w40'>s</span><span class='w41'>c</span><span class='w42'>r</span><span class='w43'>i</span><span class='w44'>p</span><span class='w45'>t</span><span class='w46'>,</span><span class='w47'> </span><span class='w48'>R</span><span class='w49'>e</span><span class='w50'>a</span><span class='w51'>c</span><span class='w52'>t</span><span class='w53'>,</span><span class='w54'> </span><span class='w55'>B</span><span class='w56'>a</span><span class='w57'>c</span><span class='w58'>k</span><span class='w59'>b</span><span class='w60'>o</span><span class='w61'>n</span><span class='w62'>e</span><span class='w63'>,</span><span class='w64'> </span><span class='w65'> </span><span class='w66'>W</span><span class='w67'>o</span><span class='w68'>r</span><span class='w69'>d</span><span class='w70'>p</span><span class='w71'>r</span><span class='w72'>e</span><span class='w73'>s</span><span class='w74'>s</span><span class='w75'>,</span><span class='w76'> </span><span class='w77'>R</span><span class='w78'>a</span><span class='w79'>i</span><span class='w80'>l</span><span class='w81'>s</span><span class='w82'>,</span><span class='w83'> </span><span class='w84'>G</span><span class='w85'>i</span><span class='w86'>t</span><span class='w87'>,</span><span class='w88'> </span><span class='w89'>V</span><span class='w90'>i</span><span class='w91'>m</span><span class='w92'>.</span><span class='w93'>.</span><span class='w94'>.</span>
               </div>
 <div class="pic">
   <img src="images/shane-2010.jpg" class=""  alt="Shane Donnelly - Freelance Front End Developer" />
 </div>
 <div class="about">
 <p class="howdy">
-Howdy, I'm Shane!
+Hello, I'm Shane!
 </p>
 <p>
-I am a freelance front end developer with a good eye for design. I love taking anything from a PSD mockup to a sketch on a napkin and turning it into a living, breathing interactive experience. My expertise is in front end development, but I am well versed in back end tech as well, including Wordpress, Ruby on Rails, LAMP stack and more. I work on a Linux box, Vim is my editor of choice, and Git is an old friend. 
+I am a freelance front end developer with a good eye for design. I love taking anything from a PSD mockup to a sketch on a napkin and turning it into a living, breathing, interactive experience. My expertise is in front end development, but I am well versed in back end tech as well, including Wordpress, Ruby on Rails, LAMP stack and more. I work on a Linux box, Vim is my editor of choice, and Git is a trusted friend. 
 </p>
   <p class="help-p animated bounceInDown">
     Need help on a project?

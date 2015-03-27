@@ -6,7 +6,7 @@
   background-image: none;
 }
 .help-p{
-  margin-top: 35px;
+  margin-top: 32px;
   text-align: right;
 }
 .contact-link{ 
@@ -19,7 +19,7 @@
   text-decoration: none;
 }
 .howdy{
-  font-size: 58px;line-height: 58px; margin-bottom: 30px; 
+  font-size: 50px;line-height: 58px; margin-bottom: 24px; 
 }
 .about{
   font-size: 18px;
@@ -148,6 +148,8 @@ body {
  }
 
 hr {
+  border-bottom: none;
+  border-top: 1px solid white; 
   margin: 50px 0; }
 
 #brand_box {
@@ -212,7 +214,8 @@ hr {
   .navbar-inner:before, .navbar-inner:after {
     box-shadow: none; } }
 .portfolio hr {
-  margin: 18px 0; }
+  margin: 18px 0; 
+}
 
 .portfolio h2 {
   padding-bottom: 10px; }

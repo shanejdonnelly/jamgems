@@ -23,8 +23,16 @@ include('includes/nav.php');
 <div class="row">
   <div class="span8 resume">
     <h1 class="resume_header">Experience</h1>
+    <h3>Web Developer, Freelance</h3>
+    <h4>Searsport, ME &mdash; 8/2008 - Present</h4>
+    <p>Technologies used: LAMP, jQuery, javascript, Vim, Git, Photoshop, Various CMS</p>
+    <ul>
+      <li>Code front and back end of projects</li>
+      <li>Administer LAMP server</li>
+      <li>Communicate with clients to establish project parameters</li>
+    </ul> 
     <h3>Front End Web Developer, Supreme Golf</h3>
-    <h4>Remote &mdash; 2014-Present</h4>
+    <h4>Remote &mdash; 3/2014 - 3/2015</h4>
     <p>Technologies used: SASS, HAML, React, Bootstrap, jQuery, Rails, Git, HTML5/CSS3</p>
     <ul>
       <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
@@ -35,20 +43,12 @@ include('includes/nav.php');
       <li>Worked daily with RAILS templates and helpers</li> 
     </ul> 
     <h3>Web Developer, Timberland</h3>
-    <h4>Stratham, NH &mdash; 2011-2014</h4>
+    <h4>Stratham, NH &mdash; 4/2011 - 3/2014</h4>
     <p>Technologies used: jQuery, Backbone, PHP, Wordpress, Git, HTML5/CSS3</p>
     <ul>
       <li>Develop feature rich, responsive websites</li>
       <li>Collaborate with designers, project managers and clients.</li>
       <li>Support e-commerce sites on GSI and Demandware platforms </li> 
-    </ul>
-    <h3>Web Developer, Freelance</h3>
-    <h4>Searsport, ME &mdash; 2008-Present</h4>
-    <p>Technologies used: Linux, Apache, MySQL, Photoshop, Various CMS</p>
-    <ul>
-      <li>Code front and back end of projects</li>
-      <li>Administer LAMP server</li>
-      <li>Communicate with clients to establish project parameters</li>
     </ul>
     <h3>Owner, Belfast Music</h3>
     <h4>Belfast, ME &mdash; 2004-2008</h4>

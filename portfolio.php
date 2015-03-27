@@ -13,7 +13,7 @@
         <div class="span4">
           <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-desktop-tall.png" alt="Supreme Golf"/></a>
 <br><br>
-          <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-mobile.png" alt="Supreme Golf"/></a>
+          <!--a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-mobile.png" alt="Supreme Golf"/></a-->
         </div>
         <div class="span1">&nbsp; </div>
 
@@ -35,6 +35,9 @@
           </div><!-- .row -->
 
           <h3>About:</h3>      
+<p>
+At Supreme Golf, I had a great deal of freedom to shape the front end technologies we used, and truly owned the front end code. The biggest project I worked on at Supreme Golf was a site re-design. As part of this project I re-coded the site css in a more modular fashion, established a living styleguide and made the site responsive. Another noteworthy project I completed for Supreme Golf was a single page application using React and Backbone that was powered by the Supreme Golf API.  
+</p>
     <ul>
       <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
       <li>Established a CSS styleguide</li>
@@ -127,7 +130,7 @@ One of the more interesting pieces was coding the overlay elements that display 
       <!-- Timberland Lookbook -->
       <div class="row portfolio">
         <div class="span4">
-          <a class="portfolio_image" href="http://lookbook.timberland.com/2013/fall/tree/pr" title="Visit Timberland Lookbook" target="_blank"><img src="images/tbl_lookbook_400.jpg" alt="Timberland Lookbook" /></a>
+          <img src="images/tbl_lookbook_400.jpg" alt="Timberland Lookbook" />
         </div>
         <div class="span1">&nbsp; </div>
 
@@ -200,7 +203,7 @@ One of the more interesting pieces was coding the overlay elements that display 
       <!-- Timberland BootCo -->
       <div class="row portfolio">
         <div class="span4">
-          <a class="portfolio_image" href="http://timberlandbootcompany.com" title="Visit Timberland Boot Company" target="_blank"><img src="images/tbl_bootco_400.png" alt="Timberland Boot Company" /></a>
+          <img src="images/tbl_bootco_400.png" alt="Timberland Boot Company" />
         </div>
         <div class="span1">&nbsp; </div>
 
@@ -275,7 +278,7 @@ One of the more interesting pieces was coding the overlay elements that display 
       <!-- Koch Brothers -->
       <div class="row portfolio">
         <div class="span4">
-          <a class="portfolio_image" href="http://www.kochbrothers.democracyforamerica.com/" title="Visit Koch Brothers Movie Night" target="_blank"><img src="images/koch_400.jpg" alt="Koch Brothers Movie Night" /></a>
+          <img src="images/koch_400.jpg" alt="Koch Brothers Movie Night" />
         </div>
         <div class="span1">&nbsp; </div>
         <div class="span6">
@@ -290,13 +293,9 @@ One of the more interesting pieces was coding the overlay elements that display 
           <div class="row">
             <p class="span1">Rails</p>
             <p class="span1">jQuery</p>
-            <p class="span1">HTML5</p>
+            <p class="span1">Design</p>
           </div><!-- .row -->
           <h3>About:</h3>        
-          <p>
-            This was my first use of SASS, Ruby on Rails, Bootstrap and Git - oh my! Built in a very short timeframe with a pair of 
-            Rails ninjas (who handled the heavy lifting in that department), it was a lot of fun.
-          </p>   
           <p>
             I handled all of the front end development and also came up with the simple design. Unfortunately, it was a short lived 
             project and I wasn't able to hang on to any code samples.
