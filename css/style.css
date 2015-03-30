@@ -229,6 +229,13 @@ hr {
 .live-site-link {
   padding-left: 20px; }
 
+.portfolio .row{
+  padding: 20px 0;
+}
+
+.portfolio .row:first-of-type{
+  padding-top: 0;
+}
 .portfolio h3.code {
   text-align: center;
   margin: 8px 0; }
