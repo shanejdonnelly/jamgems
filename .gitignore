@@ -1,0 +1,14 @@
+*.swp
+*.swo
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*.log
+/log/backend/*.log
+/log/sidekiq
+/.sass-cache
+/tmp
+/.ruby-*
+.powrc
+/public/system
+gemsurance_report.html
