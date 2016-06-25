@@ -23,16 +23,16 @@ include('includes/nav.php');
 <div class="row">
   <div class="span8 resume">
     <h1 class="resume_header">Experience</h1>
-    <h3>Web Developer, Freelance</h3>
-    <h4>Searsport, ME &mdash; 8/2008 - Present</h4>
-    <p>Technologies used: LAMP, jQuery, javascript, Vim, Git, Photoshop, Various CMS</p>
+    <h3>UI Developer, Likeable Local</h3>
+    <h4>Portland, ME &mdash; 5/2015 - Present</h4>
+    <p>Technologies used: Node, SASS, React, Grunt, Vim, Git</p>
     <ul>
-      <li>Code front and back end of projects</li>
-      <li>Administer LAMP server</li>
-      <li>Communicate with clients to establish project parameters</li>
+      <li>Responsible for UI development for web application</li>
+      <li>Created a wysiwyg style editor for client websites</li>
+      <li>Built a client onboarding tutorial</li>
     </ul> 
     <h3>Front End Web Developer, Supreme Golf</h3>
-    <h4>Remote &mdash; 3/2014 - 3/2015</h4>
+    <h4>Remote &mdash; 3/2014 - 4/2015</h4>
     <p>Technologies used: SASS, HAML, React, Bootstrap, jQuery, Rails, Git, HTML5/CSS3</p>
     <ul>
       <li>Responsible for making the web application fully responsive as part of v2 rebuild</li>
@@ -41,6 +41,14 @@ include('includes/nav.php');
       <li>Created a SPA microsite using React and Backbone, with data from the SG API</li>
       <li>Established and regularly contributed to a company Wiki</li> 
       <li>Worked daily with RAILS templates and helpers</li> 
+    </ul> 
+    <h3>Web Developer, Freelance</h3>
+    <h4>Searsport, ME &mdash; 8/2008 - Present</h4>
+    <p>Technologies used: LAMP, jQuery, javascript, Vim, Git, Photoshop, Various CMS</p>
+    <ul>
+      <li>Code front and back end of projects</li>
+      <li>Administer LAMP server</li>
+      <li>Communicate with clients to establish project parameters</li>
     </ul> 
     <h3>Web Developer, Timberland</h3>
     <h4>Stratham, NH &mdash; 4/2011 - 3/2014</h4>
@@ -73,9 +81,8 @@ include('includes/nav.php');
     </ul>
     <h1 class="resume_header">Portfolio</h1>
     <ul>
-      <li><a href="http://supremegolf.com" title="Supreme Golf" target="_blank">http://supremegolf.com</a></li> 
-      <li><a href="http://timberlandpro.com" title="Timberland PRO" target="_blank">http://timberlandpro.com</a></li> 
-      <li><a href="http://technology.timberland.com" title="Timberland Tech" target="_blank">http://technology.timberland.com</a></li> 
+      <li><a href="https://likeablehub.com" title="Likeable Hub" target="_blank">Likeable Hub</a></li> 
+      <li><a href="https://supremegolf.com" title="Supreme Golf" target="_blank">Supreme Golf</a></li> 
       <li><a href="../portfolio" title="Shane Donnelly Portfolio" target="_blank">Full Portfolio - http://shane3.com/portfolio</a></li>
     </ul>
     <h1 class="resume_header">Education</h1>
