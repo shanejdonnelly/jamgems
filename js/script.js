@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+  $('.fancybox').fancybox();
+
   function play(){
     var left = 0;
     var top = 0;

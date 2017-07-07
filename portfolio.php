@@ -5,15 +5,68 @@
   include('includes/nav.php');
 ?>
 
+
+    <style>img{box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.35);}</style>
+
     <div class="container">
       
       <!-- Portfolio -->
+      <!-- LIKEABLE -->
+      <div class="row portfolio">
+        <div class="span4">
+          <a class="fancybox portfolio_image" href="images/contentlibrary-addtime.png" title="LikeableLocal Content Library Design"><img src="images/contentlibrary-addtime-400.png" alt="LikeableLocal Content Library Design"/></a> 
+          <a class="fancybox portfolio_image" href="images/messagecenter-filters.png" title="LikeableLocal Message Center Design"style="margin-top: 35px; display: block;" ><img src="images/messagecenter-filters-400.png" alt="LikeableLocal Message Center Design"/></a> 
+          <!-- a class="fancybox portfolio_image" href="images/likeable_ideas_full.png" title="LikeableHub Ideas Page"style="margin-top: 35px; display: block;" ><img src="images/likeable_ideas_400.jpg" alt="Likeable Local"/></a --> 
+          <!--a class="fancybox portfolio_image" href="images/likeable_2_full.png" title="LikeableHub Offers Dashboard" style="margin-top: 35px; display: block;" target="_blank"><img src="images/likeable_2_400.jpg" alt="Likeable Local"/></a -->
+          <a class="fancybox portfolio_image" href="images/likeable_1_full.png" title="LikeableHub Offers App" style="margin-top: 35px; display: block;" target="_blank"><img src="images/likeable_1_400.jpg" alt="Likeable Local"/></a>
+
+<br><br> 
+        </div>
+        <div class="span1">&nbsp; </div>
+
+        <div class="span6">
+          <h2>Likeable Local</h2>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/likeable" target="_blank" title="Likeable Code Samples">View code samples</a>
+          <a href="https://likeablehub.com" class="live-site-link" target="_blank" title="Visit Likeable Local">View live site</a>
+          <hr>
+          <h3>Technology :</h3>
+          <div class="row">
+            <p class="span2">React</p>
+            <p class="span2">SASS</p>  
+            <p class="span2">Sketch</p>
+            <p class="span2">Webpack</p>
+            <p class="span2">ES6</p>  
+            <p class="span2">Babel</p>
+          </div><!-- .row -->
+
+          <h3>About:</h3>      
+<p>
+<!-- TODO - a blurb about Likeable -->
+</p>
+    <ul> 
+      <li>Designed new version of the app from the ground up</li> 
+      <li>Lead developer for single page app that allows users to easily create and edit their own website</li>
+      <li>Refactored nearly all front end code</li>
+      <li>Responsible for the design of most new features</li> 
+      <li>Set up a front end build process using Webpack</li> 
+      <li>Worked with and contributed to Node server code regularly</li> 
+      <li>Transitioned from views full of scripts and onclick events to separate script files and React components</li>
+      <li>Moved from an unweildy, one page stylesheet to a nicely modular set of SASS files</li> 
+    </ul> 
+
+
+        </div>
+      </div><!-- .row -->
+
+      <hr>
+
+
       <!-- SG -->
       <div class="row portfolio">
         <div class="span4">
-          <a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-desktop-tall.png" alt="Supreme Golf"/></a>
+          <a class="fancybox portfolio_image" href="images/sg_full.png" title="Supreme Golf" target="_blank"><img src="images/sg-desktop-tall.png" alt="Supreme Golf"/></a>
 <br><br>
-          <!--a class="portfolio_image" href="https://supremegolf.com" title="Visit Supreme Golf" target="_blank"><img src="images/sg-mobile.png" alt="Supreme Golf"/></a-->
+
         </div>
         <div class="span1">&nbsp; </div>
 
@@ -22,16 +75,14 @@
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/supreme_golf" target="_blank" title="Supreme Golf Code Samples">View code samples</a>
           <a href="https://supremegolf.com" class="live-site-link" target="_blank" title="Visit Supreme Golf">View live site</a>
           <hr>
-          <h3>Technologies:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">React</p>
-           <p class="span1">SASS</p>  
-            <p class="span1">Rails</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">jQuery</p>
-           <p class="span1">Git</p>  
-            <p class="span1">HAML</p>
+            <p class="span2">React</p>
+            <p class="span2">SASS</p>  
+            <p class="span2">Rails</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">Git</p>  
+            <p class="span2">HAML</p>
           </div><!-- .row -->
 
           <h3>About:</h3>      
@@ -63,18 +114,15 @@ At Supreme Golf, I had a great deal of freedom to shape the front end technologi
 
         <div class="span6">
           <h2>Timberland iPad Bootco</h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_ipad_bootco " target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_ipad_bootco " target="_blank" title="Code Samples">View code samples</a>
           <a href="http://timberlandbootcompany.com/fall14" class="live-site-link" target="_blank" title="Visit Timberland iPad Bootco">View live site</a>
           <hr>
-          <h3>Technologies:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">Javascript</p>
-           <p class="span1">HTML5</p>  
-            <p class="span1">jQuery</p>
-          </div><!-- .row -->
-          <div class="row">
-         
-            <p class="span1">CSS3</p>
+           <p class="span2">Javascript</p>
+           <p class="span2">HTML5</p>  
+           <p class="span2">jQuery</p> 
+           <p class="span2">CSS3</p>
 
           </div><!-- .row --> 
           <h3>About:</h3>      
@@ -97,18 +145,16 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span1">&nbsp; </div>
         <div class="span6">
           <h2>Timberland Pro Seeding</h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_proseeding" target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_proseeding" target="_blank" title="Code Samples">View code samples</a>
           <hr>
-          <h3>Technologies:</h3>
+          <h3>Technology:</h3>
           <div class="row">
-            <p class="span1">Javascript</p>
-            <p class="span1">Backbone.js</p>
-            <p class="span1">jQuery</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
-            <p class="span1">XML</p>
+            <p class="span2">Javascript</p>
+            <p class="span2">Backbone.js</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
+            <p class="span2">XML</p>
 
 
           </div><!-- .row --> 
@@ -136,17 +182,15 @@ One of the more interesting pieces was coding the overlay elements that display 
 
         <div class="span6">
           <h2>Timberland Lookbook<sup>&reg;</sup></h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_lookbook" target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_lookbook" target="_blank" title="Code Samples">View code samples</a>
           <hr>
-          <h3>Technologies:</h3>
+          <h3>Technology:</h3>
           <div class="row">
-            <p class="span1">Javascript</p>
-            <p class="span1">XML</p>
-            <p class="span1">jQuery</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
+            <p class="span2">Javascript</p>
+            <p class="span2">XML</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
 
           </div><!-- .row --> 
           <h3>About:</h3>      
@@ -172,18 +216,16 @@ One of the more interesting pieces was coding the overlay elements that display 
 
         <div class="span6">
           <h2>Timberland<sup>&reg;</sup> PRO</h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_pro" target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_pro" target="_blank" title="Code Samples">View code samples</a>
           <a href="http://timberlandpro.com" class="live-site-link" target="_blank" title="Visit Timberland PRO">View live site</a>
           <hr>
-          <h3>Technologies Used:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
-            <p class="span1">jQuery</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">AJAX</p>
-            <p class="span1">Sammy.js</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">AJAX</p>
+            <p class="span2">Sammy.js</p>
 
           </div><!-- .row -->     
           <h3>About:</h3>        
@@ -209,18 +251,16 @@ One of the more interesting pieces was coding the overlay elements that display 
 
         <div class="span6">
           <h2>Timberland Boot Company<sup>&reg;</sup></h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_bootco" target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_bootco" target="_blank" title="Code Samples">View code samples</a>
 
           <hr>
-          <h3>Technologies:</h3>
+          <h3>Technology:</h3>
           <div class="row">
-            <p class="span1">PHP</p>
-            <p class="span1">XML</p>
-            <p class="span1">jQuery</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
+            <p class="span2">PHP</p>
+            <p class="span2">XML</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
 
           </div><!-- .row --> 
           <h3>About:</h3>      
@@ -246,19 +286,17 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span1">&nbsp; </div>
         <div class="span6">
           <h2>Timberland<sup>&reg;</sup> Technology Guide</h2>
-          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland_tech" target="_blank" title="Code Samples">View code samples</a>
+          <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_tech" target="_blank" title="Code Samples">View code samples</a>
           <a href="http://technology.timberland.com" class="live-site-link" target="_blank" title="Visit Timberland Tech">View live site</a>
           <hr>
-          <h3>Technologies Used:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">AJAX</p>
-            <p class="span1">Wordpress</p>          
-            <p class="span1">PHP</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">jQuery</p>
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
+            <p class="span2">AJAX</p>
+            <p class="span2">Wordpress</p>          
+            <p class="span2">PHP</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
           </div><!-- .row -->     
           <h3>About:</h3>        
           <p>
@@ -284,16 +322,14 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span6">
           <h2>Koch Brothers Movie Night</h2>
           <hr>
-          <h3>Technologies Used:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">SASS</p>
-            <p class="span1">Bootstrap</p>
-            <p class="span1">Git</p>
-          </div><!-- .row -->
-          <div class="row">
-            <p class="span1">Rails</p>
-            <p class="span1">jQuery</p>
-            <p class="span1">Design</p>
+            <p class="span2">SASS</p>
+            <p class="span2">Bootstrap</p>
+            <p class="span2">Git</p>
+            <p class="span2">Rails</p>
+            <p class="span2">jQuery</p>
+            <p class="span2">Design</p>
           </div><!-- .row -->
           <h3>About:</h3>        
           <p>
@@ -313,15 +349,13 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span6">
           <h2>Loon Echo Land Trust</h2>
           <hr>
-          <h3>Technologies Used:</h3>
+          <h3>Technology :</h3>
           <div class="row">
-            <p class="span1">HTML5</p>
-            <p class="span1">CSS3</p>
-            <p class="span1">PHP</p>
-          </div>
-          <div class="row">
-            <p class="span1">Wordpress</p>
-            <p class="span1">jQuery</p>
+            <p class="span2">HTML5</p>
+            <p class="span2">CSS3</p>
+            <p class="span2">PHP</p>
+            <p class="span2">Wordpress</p>
+            <p class="span2">jQuery</p>
           </div><!-- .row -->
           <h3>About:</h3>        
           <p>
