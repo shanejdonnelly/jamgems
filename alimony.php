@@ -24,9 +24,7 @@ var payments_made = 3;
 var payment_percent = Math.round(payments_made/total_payments * 100);
 
 $(document).ready(function(){
-  $('.js-entry').append(percent_completed + '% of time completed');
-  $('.js-entry').append('<br/><br/>');
-  $('.js-entry').append(payment_percent + '% of payments completed'); 
+  $('.js-entry').append(percent_completed + '% of time completed'); 
 });
 </script>
 

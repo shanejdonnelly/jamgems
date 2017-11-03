@@ -11,7 +11,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav"> 
               <li><a class="portfolio" href="./portfolio" title="Portfolio">Portfolio</a></li>
-              <li><a class="resume" href="./resume" title ="Resume">Resume</a></li>
+              <li><a class="resume" href="https://hireground.me/resume/shane" title ="Resume">Resume</a></li>
               <li><a class="" href="https://github.com/shanejdonnelly/portfolio" title="@Github" target="_blank">@Github</a></li>
               <li><a class="" href="http://www.linkedin.com/in/shanejdonnelly" title="@LinkedIn" target="_blank">@LinkedIn</a></li>
               <li><a class="" href="./game" title ="Game">Game</a></li>
