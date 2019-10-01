@@ -27,7 +27,7 @@
         <div class="span6">
           <h2>Likeable Local</h2>
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/likeable" target="_blank" title="Likeable Code Samples">View code samples</a>
-          <a href="https://likeablehub.com" class="live-site-link" target="_blank" title="Visit Likeable Local">View live site</a>
+
           <hr>
           <h3>Technology :</h3>
           <div class="row">
@@ -73,7 +73,7 @@
         <div class="span6">
           <h2>Supreme Golf</h2>
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/supreme_golf" target="_blank" title="Supreme Golf Code Samples">View code samples</a>
-          <a href="https://supremegolf.com" class="live-site-link" target="_blank" title="Visit Supreme Golf">View live site</a>
+
           <hr>
           <h3>Technology :</h3>
           <div class="row">
@@ -115,7 +115,7 @@ At Supreme Golf, I had a great deal of freedom to shape the front end technologi
         <div class="span6">
           <h2>Timberland iPad Bootco</h2>
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_ipad_bootco " target="_blank" title="Code Samples">View code samples</a>
-          <a href="http://timberlandbootcompany.com/fall14" class="live-site-link" target="_blank" title="Visit Timberland iPad Bootco">View live site</a>
+
           <hr>
           <h3>Technology :</h3>
           <div class="row">
@@ -217,7 +217,7 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span6">
           <h2>Timberland<sup>&reg;</sup> PRO</h2>
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_pro" target="_blank" title="Code Samples">View code samples</a>
-          <a href="http://timberlandpro.com" class="live-site-link" target="_blank" title="Visit Timberland PRO">View live site</a>
+
           <hr>
           <h3>Technology :</h3>
           <div class="row">
@@ -287,7 +287,7 @@ One of the more interesting pieces was coding the overlay elements that display 
         <div class="span6">
           <h2>Timberland<sup>&reg;</sup> Technology Guide</h2>
           <a href="https://github.com/shanejdonnelly/portfolio/tree/master/timberland/timberland_tech" target="_blank" title="Code Samples">View code samples</a>
-          <a href="http://technology.timberland.com" class="live-site-link" target="_blank" title="Visit Timberland Tech">View live site</a>
+
           <hr>
           <h3>Technology :</h3>
           <div class="row">

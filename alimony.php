@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 <div class="container">
 
+
 	<div class="js-entry"><div>
 </div>
 <?php include('includes/footer.php'); ?>

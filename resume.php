@@ -76,7 +76,7 @@ include('includes/nav.php');
     <h1 class="resume_header">Skills</h1>
     <ul class="skills"> 
       <li>Javascript</li>
-      <li>React</li> 
+      <li>React/Redux</li> 
       <li>SASS</li> 
       <li>jQuery</li> 
       <li>Grunt, Webpack, Babel</li>
@@ -87,12 +87,12 @@ include('includes/nav.php');
       <li>Git</li>
       <li>Vim and Command Line</li> 
     </ul>
-    <h1 class="resume_header">Portfolio</h1>
+    <!-- h1 class="resume_header">Portfolio</h1>
     <ul>
       <li><a href="https://likeablehub.com" title="Likeable Hub" target="_blank">Likeable Hub</a></li> 
       <li><a href="https://supremegolf.com" title="Supreme Golf" target="_blank">Supreme Golf</a></li> 
       <li><a href="../portfolio" title="Shane Donnelly Portfolio" target="_blank">Full Portfolio</a></li>
-    </ul>
+    </ul -->
     <h1 class="resume_header">Education</h1>
     <ul class="unstyled">
       <li>BS, Information Technology, 2012</li>
